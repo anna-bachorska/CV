@@ -3,21 +3,21 @@ body {
     background-color: aliceblue;
     padding: 40px 0;
 }
-h2 {
-    font-size: 28px;
-}
 
 h1 {
     font-size: 36px;
 }
 
-span {
-    color: cornflowerblue;
+h2 {
+    font-size: 28px;
 }
 
-img {
-    width: 150px;
-    height: 220px;
+h3 {
+    margin-top: 5px;
+}
+
+span {
+    color: cornflowerblue;
 }
 
 section,
@@ -57,4 +57,36 @@ header li {
 
 .circle-photo {
     border-radius: 20%;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 220px;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    color: grey;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.5;
 }
